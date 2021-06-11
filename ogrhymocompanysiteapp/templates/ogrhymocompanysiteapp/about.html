@@ -1,0 +1,552 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en-US">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+
+		<!-- Favicons ================================================== -->
+
+		<!-- ****** faviconit.com favicons ****** -->
+		<link rel="shortcut icon" href="https://secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon.ico">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_2e1a0.jpg' %}">
+		
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_proactive_planninge1a0.jpg' %}">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_dynamice1a0.jpg' %}">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/TAG_Home_About-2-mobilee1a0.jpg' %}">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_hold_1e1a0.jpg' %}">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/rallax.js' %}">
+
+
+
+		<link rel="icon" sizes="16x16 32x32 64x64" href="https://secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon.ico">
+
+
+		<link rel="icon" type="image/png" sizes="196x196" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-192.png' %}">
+
+		<link rel="icon" type="image/png" sizes="160x160" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-160.png' %}">
+		<link rel="icon" type="image/png" sizes="96x96" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-96.png' %}">
+		<link rel="icon" type="image/png" sizes="64x64" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-64.png' %}">
+		<link rel="icon" type="image/png" sizes="32x32" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-32.png' %}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-16.png' %}">
+		<link rel="apple-touch-icon" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-57.png' %}">
+		<link rel="apple-touch-icon" sizes="114x114" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-114.png' %}">
+		<link rel="apple-touch-icon" sizes="72x72" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-72.png' %}">
+		<link rel="apple-touch-icon" sizes="144x144" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-144.png' %}">
+		<link rel="apple-touch-icon" sizes="60x60" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-60.png' %}">
+		<link rel="apple-touch-icon" sizes="120x120" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-120.png' %}">
+		<link rel="apple-touch-icon" sizes="76x76" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-76.png' %}">
+		<link rel="apple-touch-icon" sizes="152x152" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-152.png' %}">
+		<link rel="apple-touch-icon" sizes="180x180" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-180.png' %}">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-144.png' %}">
+		<meta name="msapplication-config" content="https://secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/browserconfig.xml">
+		<!-- ****** faviconit.com favicons ****** -->
+		
+		
+
+		<title>Homepage - The Allion Group </title>
+<meta name='robots' content='max-image-preview:large' />
+
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+
+<meta name="twitter:title" content="Homepage - BANCO DE CRYPTO" />
+
+<link rel='dns-prefetch' href="http://js.hs-scripts.com/" />
+<link rel='preconnect' href="https://secureservercdn.net/" crossorigin />
+<link rel='stylesheet' id='wp-block-library-css'  href="{% static 'secureservercdn.net/style.mine1a0.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='tag-style-css'  href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/stylee1a0.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='style.css-css'  href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/sass/stylese1a0.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-pro-5.10.2-css'  href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/third-party/fontawesome-pro-5.10.2/css/all.mine1a0.css' %}" type='text/css' media='all' />
+
+
+<link rel='stylesheet' id='swiper.css-css'  href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/css/swipere1a0.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='minibar.min-css'  href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/third-party/simple-scrollbar/simple-scrollbare1a0.css' %}" type='text/css' media='all' />
+
+
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-includes/js/jquery/jquery.mine1a0.js' %}" id='jquery-core-js'></script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-includes/js/jquery/jquery-migrate.mine1a0.js' %}" id='jquery-migrate-js'></script>
+
+
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/jquery-3.4.1.mine1a0.js' %}" id='jquery-3.3.1.min-js'></script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/css_browser_selectore1a0.js' %}" id='css_browser_selector-js'></script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/swiper.mine1a0.js' %}" id='swiper.min-js'></script>
+
+
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/laxe1a0.js' %}" id='lax-js'></script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/third-party/simple-scrollbar/simple-scrollbar.mine1a0.js' %}" id='simple-scrollbar.min-js'></script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/maine1a0.js' %}" id='main-js'></script>
+<script type="module" src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/main-vanillae1a0.js' %}"></script><link rel='shortlink' href='index.html' />
+			<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/cropped-favicontag-32x32.png' %}" sizes="32x32" />
+<link rel="icon" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/cropped-favicontag-192x192.png' %}" sizes="192x192" />
+<link rel="apple-touch-icon" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/cropped-favicontag-180x180.png' %}" />
+<meta name="msapplication-TileImage" content="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/cropped-favicontag-270x270.png' %}" />
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-24860589-2"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date()); gtag('config', 'UA-24860589-2');
+		</script>
+
+	</head>
+	<body class="home page-template-default page page-id-6 is-night ubizz-homepage">
+	<!-- Primary Page Layout ================================================== -->
+
+	<div class="menu-container">
+		<div class="menu-container-top">
+			<div class="container is-fluid is-paddingless">
+				<div class="columns is-gapless is-mobile">
+					<div class="column main-logo">
+						<p>
+							<a href="{% url 'home' %}" class="trigger-mouse-hover">
+								<span class="brand-icon">
+									
+								</span>
+							</a>
+						</p>
+					</div>
+					<div class="column"></div>
+					<div class="column navigation-trigger-close is-active">
+						<span>
+							<svg width="100%" height="100%" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+								<path d="M0,30.323l1.581,1.581l12.522,-12.522l-1.581,-1.581l-12.522,12.522Z"></path>
+								<path id="Fill-2" d="M30.183,0.14l-12.522,12.522l1.581,1.581l12.522,-12.522l-1.581,-1.581Z"></path>
+								<path d="M1.581,0.14l-1.581,1.581l14.301,14.301l0,0l1.581,1.581l0,0l14.301,14.301l1.581,-1.581l-14.301,-14.301l0,0l-1.581,-1.581l0,0l-14.301,-14.301Z"></path>
+							</svg>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu-container-bottom">
+			<div class="container is-fluid">
+				<div class="columns is-mobile is-multiline">
+					<div class="column is-hidden-touch is-4-desktop">
+						<div class="content animated fullwidth-left is-navigation-image is-hidden-mobile">
+							<figure class="image menu-item-image">
+
+								<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Menu_Aboute1a0.jpg' %}" alt=" " class=""><img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Menu_Propertiese1a0.jpg' %}" alt=" " class="">
+								<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Menu_Bloge1a0.jpg' %}" alt=" " class=""><img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Menu_Contacte1a0.jpg' %}" alt=" " class="">
+							</figure>
+						</div>
+					</div>
+					<div class="column is-12-touch is-2-desktop is-offset-1-desktop">
+						<div class="content animated is-vspaced-between">
+							<div class="menu-item-tag is-hidden-touch">
+
+								<p class="">Our name stands for integrity and trust.</p><p class="">Find your perfect place.</p><p class="">Stay informed on the latest cryptocurrencies.</p><p class="">Our advisors are here to get you started.</p>
+							</div>
+							<div class="navigation-contact padding-top-3-mobile">
+								<p class="is-day-base-1 is-night-white">Contact us</p>
+								<p>
+									<a href="tel:"></a><br>
+									<a href="mailto:">info@thealliongroup.com.com</a>
+								</p>
+
+									<p class="is-day-base-1 is-night-white">Manilla, Phillipine.</p>
+									<p>
+										<a href="#" target="_blank">4747 Executive , 8th FL.<br>
+											Manilla										</a>
+									</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="column is-12-touch is-4-desktop is-offset-1-desktop">
+						<div class="content animated">
+							<div class="menu-content">
+
+								<div class="menu-item">
+											<a href="{% url 'about' %}" class=" trigger-mouse-hover">
+												<span class="icon-active">
+													<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="7px" height="10px" viewBox="0 0 7 10" enable-background="new 0 0 7 10" xml:space="preserve">
+														<polygon points="7,5 0,10 0,0 "></polygon>
+													</svg>
+												</span>
+												<span>About us</span>
+											</a>
+										</div><div class="menu-item">
+											<a href="{% url 'contact' %}" class=" trigger-mouse-hover">
+												<span class="icon-active">
+													<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="7px" height="10px" viewBox="0 0 7 10" enable-background="new 0 0 7 10" xml:space="preserve">
+														<polygon points="7,5 0,10 0,0 "></polygon>
+													</svg>
+												</span>
+												<span>Contact</span>
+											</a>
+										</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<header class="header has-background-day-white has-background-night-base-1 ">
+	<div class="container is-fluid is-paddingless has-vertical-stripes">
+		<div class="has-vertical-stripes-inner">
+
+				
+<div class="columns is-gapless is-mobile">
+	<div class="column main-logo">
+		<p>
+			<a href="{% url 'home' %}" class="trigger-mouse-hover">
+				<span class="logo is-day-base-1 is-night-white lax" data-lax-preset="ubizzFadeInUp">
+					
+				</span>
+			</a>
+		</p>
+	</div>
+	<div class="column"></div>
+	<div class="column navigation-trigger trigger-mouse-inverted trigger-mouse-hover">
+		<span>
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26px" height="26px" viewBox="0 15 26 26" enable-background="new 0 15 26 26" xml:space="preserve">
+				<rect y="36.75" width="11" height="2"></rect>
+				<rect x="13" y="36.75" width="13" height="2"></rect>
+				<rect y="27.25" width="11" height="2"></rect>
+				<rect x="13" y="27.25" width="13" height="2"></rect>
+				<rect y="17.25" width="11" height="2"></rect>
+				<rect x="13" y="17.25" width="13" height="2"></rect>
+			</svg>
+		</span>
+	</div>
+	<div class="column is-2-desktop is-4-mobile-portrait is-3-tablet-portrait logo-secondary">
+		<a class="navbar-brand" href="{% url 'home' %}" style="color: #ffffff;"><i><b>THE ALLION GROUP</b></i></a>
+		<span>
+			
+		</span>
+	</div>
+</div>
+		</div>
+	</div>
+</header>
+
+	<div class="header-spacing"></div>
+
+	<!-- About Us -->
+	<section class="section has-background-base-1">
+		<div class="container is-fluid has-vertical-stripes">
+			<div class="has-vertical-stripes-inner">
+				<div class="columns is-multiline">
+					<div class="column is-6-desktop is-6-touch-landscape">
+						<div class="content padding-bottom-2-desktop padding-bottom-2-touch-landscape padding-top-2-touch-portrait padding-bottom-1-touch-portrait">
+							<h5 class="has-text-primary lax" data-lax-preset="ubizzFadeInUp" >About us</h5>
+							<h2 class="is-title is-uppercase is-size-1 has-text-white" data-lax-preset="ubizzFadeInUp">Our name stands for integrity and trust.</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content fullwidth-left is-fullwidth-left-right-mobile">
+			<div class="ub-parallax-container is-3by1 is-2by1-mobile-portrait">
+				<div class="ub-parallax-content lax" data-lax-preset="ubizzParallax">
+					<figure class="ub-parallax-image">
+						<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/TAG_about_hero-2e1a0.jpg' %}" alt=" ">
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Our Promise -->
+	<section class="section has-background-base-1">
+		<div class="container is-fluid has-vertical-stripes">
+			<div class="has-vertical-stripes-inner">
+				<div class="columns is-mobile is-multiline is-centered">
+					<div class="column is-7-desktop is-7-touch-landscape">
+						<div class="content has-text-centered padding-bottom-6-desktop padding-bottom-6-touch-landscape padding-top-6-desktop padding-top-6-touch-landscape padding-top-2-touch-portrait padding-bottom-2-touch-portrait">
+							<h5 class="has-text-primary lax" data-lax-preset="ubizzFadeInUp" >Our promise</h5>
+							<h3 class="is-size-4 is-day-base-1 has-text-white lax" data-lax-preset="ubizzFadeInUp">Outstanding client service is our number one priority. We are San Diego’s biggest integrated team, upholding a long legacy of trusted advisors and veteran experts.</h3>
+						</div>
+					</div>
+					<div class="column is-12 has-3D-shadow-item">
+						<div class="content has-3D-shadow dark-shadow has-3D-shadow-left">
+							<span class="shadow-3D-left"></span>
+							<span class="shadow-3D-bottom"></span>
+							<div class="ub-parallax-container is-5by3">
+								<div class="ub-parallax-content lax" data-lax-preset="ubizzParallax">
+									<figure class="ub-parallax-image">
+										<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_About_2e1a0.jpg' %}" alt=" ">
+									</figure>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- TAG -->
+		<div class="container is-fluid has-vertical-stripes ">
+			<div class="has-vertical-stripes-inner">
+				<div class="columns is-mobile">
+					<div class="column is-6-desktop is-6-touch-landscape">
+						<div class="content padding-top-4-desktop padding-top-4-touch-landscape padding-bottom-2-desktop padding-bottom-2-touch-landscape padding-top-2-touch-portrait padding-bottom-1-touch-portrait">
+							<h5 class="has-text-primary lax" data-lax-preset="ubizzFadeInUp">TAG</h5>
+							<h2 class="has-text-white is-size-2 lax" data-lax-preset="ubizzFadeInUp">Our core values</h2>
+						</div>
+					</div>
+				</div>
+				<div class="columns is-mobile trigger-mouse-drag">
+					<div class="column is-12 is-paddingless">
+						<div class="about-values-swiper lax" data-lax-translate-x="vh vw, (vh*0.60) 0 " data-lax-anchor="self">
+							<div class="columns is-gapless swiper-wrapper">
+
+								<div class="column is-5-desktop is-5-touch-landscape is-6-tablet-portrait is-12-mobile-portrait swiper-slide">
+											<div class="swiper-slide-content">
+												<div class="about-value-item">
+													<div class="box-border content">
+														<p class="is-size-1 is-title has-text-primary is-marginless">01.</p>
+														<h4 class="has-text-white pd-bt-1-tb pd-top-1-tb is-night-white">Commitment to excellence</h4>
+														<p class="has-text-white is-night-white">In industrial leasing and sales, complete dedication and confidence are vital to success. It is our principle to view every transaction through the eyes of the owner as if it was our own. We believe only the highest level of service and commitment can yield exceptional results for both our clients and our team.</p>
+													</div>
+												</div>
+											</div>
+										</div><div class="column is-5-desktop is-5-touch-landscape is-6-tablet-portrait is-12-mobile-portrait swiper-slide">
+											<div class="swiper-slide-content">
+												<div class="about-value-item">
+													<div class="box-border content">
+														<p class="is-size-1 is-title has-text-primary is-marginless">02.</p>
+														<h4 class="has-text-white pd-bt-1-tb pd-top-1-tb is-night-white">Accountability is key</h4>
+														<p class="has-text-white is-night-white">We strive for and value true, long-lasting partnerships that are based on integrity and trust. That’s why all our communications and processes are built on clarity, transparency and accountability, so our clients are empowered to make decisions with complete understanding and confidence.</p>
+													</div>
+												</div>
+											</div>
+										</div><div class="column is-5-desktop is-5-touch-landscape is-6-tablet-portrait is-12-mobile-portrait swiper-slide">
+											<div class="swiper-slide-content">
+												<div class="about-value-item">
+													<div class="box-border content">
+														<p class="is-size-1 is-title has-text-primary is-marginless">03.</p>
+														<h4 class="has-text-white pd-bt-1-tb pd-top-1-tb is-night-white">Gratitude</h4>
+														<p class="has-text-white is-night-white">Our business, but also our home, is in Manilla. We are proud and thankful to be able to contribute to a better and more meaningful life in our community, by helping people to create business value, equity and ultimately economic impact that raises the quality of life in our region. </p>
+													</div>
+												</div>
+											</div>
+										</div><div class="column is-5-desktop is-5-touch-landscape is-6-tablet-portrait is-12-mobile-portrait swiper-slide">
+											<div class="swiper-slide-content">
+												<div class="about-value-item">
+													<div class="box-border content">
+														<p class="is-size-1 is-title has-text-primary is-marginless">04.</p>
+														<h4 class="has-text-white pd-bt-1-tb pd-top-1-tb is-night-white">Culture of curiosity</h4>
+														<p class="has-text-white is-night-white">Our team needs to grow and evolve to stay on top of their game. By providing the tools for continuous professional and personal development—from leading-edge technology to innovative strategies in all areas of our industry—we empower every teammate to be curious and to be their best self. Our success as a team will define the success of our clients.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										</div><div class="column is-5-desktop is-5-touch-landscape is-6-tablet-portrait is-12-mobile-portrait swiper-slide">
+											<div class="swiper-slide-content">
+												<div class="about-value-item">
+													<div class="box-border content">
+														<p class="is-size-1 is-title has-text-primary is-marginless">05.</p>
+														<h4 class="has-text-white pd-bt-1-tb pd-top-1-tb is-night-white">Who we are</h4>
+														<p class="has-text-white is-night-white">The Allion Group, a Phillippine based crypto company regulated and authorized by the financial conduct authority to conduct investment business under registration number 557731. <br>
+
+														The Allion Group was designed to protect your assets from market votality, devaluation of assets, financial crises and/or flash crash. BDC accepts cash deposits, stocks, bonds, crypto currency, gold and many others. <br>
+
+														The Allion Group manages approximately $252 billion in assets across fixed income. Drawing on over 40 years of experience and the expertise of more than 250 investment professionals, the firms capabilities span traditional products and solutions as well as those that cannot be easily replicated by an index. <br>
+
+														The Allion Group is a heritage of partnership and innovation serves clients at every step. Our award winning culture is deeply rooted in a client-centric approach to help investors meet their goals - from insurance companies, corporate and public pension funds, soverign wealth funds, endowments and foundations, and consultants to intermediaries, as well as individual investors. <br>
+
+														The Allion Group allow users to make daily withdrawal of fifty dollars worth of bitcoin. Investors will be eligible to withdraw above the default amount after 10 years of investing or upgrade withdrawal package. <br>
+
+														This can be done in our head office, any of our branch or online.  </p>
+													</div>
+												</div>
+											</div>
+										</div>
+							</div>
+							<div class="swiper-scrollbar-about-values is-hidden-desktop is-hidden-touch-landscape"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Team Leadership -->
+		<div class="container is-fluid has-vertical-stripes">
+			<div class="has-vertical-stripes-inner">
+				<div class="columns is-multiline is-mobile is-vcentered padding-top-6-desktop padding-top-6-touch-landscape padding-top-4-touch-portrait padding-bottom-6-desktop padding-bottom-6-touch-landscape padding-bottom-4-touch-portrait">
+					<div class="column is-6-desktop is-6-touch-landscape is-12-touch-portrait">
+						<div class="content">
+							<div class="ub-parallax-container is-square">
+								<div class="ub-parallax-content lax" data-lax-preset="ubizzParallax">
+									<figure class="ub-parallax-image">
+										<img src="../../secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_About_3e1a0.jpg?time=1602744372" alt=" ">
+									</figure>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-5-desktop is-5-touch-landscape is-offset-1-desktop is-offset-1-touch-landscape is-12-touch-portrait">
+						<div class="content padding-top-1-touch-portrait lax" data-lax-preset="ubizzFadeInUp">
+							<h5 class="has-text-primary lax" data-lax-preset="ubizzFadeInUp">Team Leadership</h5>
+							<h2 class="has-text-white is-size-2 lax" data-lax-preset="ubizzFadeInUp">We lead where others follow</h2>
+							<p class="has-text-white lax" data-lax-preset="ubizzFadeInUp">To us, teamwork means everything, and that includes our customers. As a team and partner, we rigorously align with our clients’ goals and interests every step of the way. We lead a streamlined, effective process, backed by diligent research, market data, innovative technology and agile procedures—from initial brief to completing a deal, and beyond.</p>
+							<p>
+								<a href="" class="button trigger-mouse-hover lax" data-lax-preset="ubizzFadeInUp">
+									<span>Learn more</span>
+									<span class="icon">
+										<svg width="100%" height="100%" viewBox="0 0 5 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+											<path d="M0.214,1.004l3.221,3.396l-3.221,3.396c-0.28,0.268 -0.285,0.535 -0.017,0.803c0.268,0.268 0.531,0.268 0.788,0l3.64,-3.797c0.117,-0.098 0.175,-0.232 0.175,-0.402c0,-0.17 -0.058,-0.304 -0.175,-0.402l-3.64,-3.797c-0.257,-0.268 -0.52,-0.268 -0.788,0c-0.268,0.268 -0.263,0.535 0.017,0.803Z"></path>
+										</svg>
+									</span>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+				
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer is-dark-mode is-fullheight trigger-mouse-inverted">
+
+	<div class="footer-body">
+		<div class="container is-fluid">
+			<div class="columns">
+	<div class="column is-12">
+		<div class="content has-text-centered is-fullheight is-vcentered is-jcenter">
+			<div>
+				<h5 class="lax" data-lax-preset="ubizzFadeInUp">Contact us</h5>
+				<p class="is-huge lax" data-lax-preset="ubizzFadeInUp"><a href="{% url 'contact' %}" class="trigger-mouse-hover is-huge footerHoverColor">Let's get specific</a></p>
+			</div>
+		</div>
+	</div>
+</div>		</div>
+	</div>
+	<div class="footer-foot">
+		<div class="container is-fluid">
+			<div class="columns is-vcentered reorder-mobile-portrait is-multiline is-mobile footer-columns">
+	<div class="column order-2-mobile-portrait is-12-mobile-portrait">
+		<div class="content is-small is-copyright has-text-centered-mobile-portrait padding-top-2-mobile-portrait padding-bottom-2-mobile-portrait">
+			<p>&copy; 2021 
+The Allion Group
+</p>
+<p><span><a href="" class="trigger-mouse-hover">Privacy Policy</a></span><span><a href="" class="trigger-mouse-hover">Terms of use</a></span></p>		</div>
+	</div>
+	<div class="column order-1-mobile-portrait is-12-mobile-portrait">
+		<div class="content">
+			<div class="social-media">
+
+	
+	
+			<div class="social-media-item">
+			<a href="" target="_blank" class="trigger-mouse-hover">
+				<span class="icon instagram">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+						<path d="M68.996,99H31.003C14.441,98.98,1.02,85.559,1,68.997V31.004C1.02,14.441,14.441,1.021,31.003,1h37.993C85.559,1.021,98.98,14.441,99,31.004v37.993C98.98,85.559,85.559,98.98,68.996,99z M31.003,8.337c-12.529,0-22.685,10.156-22.685,22.685v37.993c0.013,12.52,10.165,22.662,22.685,22.662h37.993c12.521,0,22.673-10.143,22.686-22.662V31.004c0-12.529-10.156-22.686-22.686-22.686L31.003,8.337z"></path>
+						<path d="M50,74.79c-13.691,0-24.791-11.099-24.791-24.79S36.309,25.21,50,25.21S74.791,36.309,74.791,50l0,0C74.775,63.686,63.686,74.775,50,74.79z M50,32.723c-9.542,0-17.277,7.735-17.277,17.277S40.458,67.277,50,67.277S67.277,59.542,67.277,50l0,0C67.268,40.462,59.537,32.733,50,32.723z"></path>
+						<path d="M83.941,22.515c0,3.565-2.891,6.456-6.456,6.456s-6.456-2.891-6.456-6.456s2.891-6.456,6.456-6.456l0,0C81.051,16.059,83.941,18.949,83.941,22.515z"></path>
+					</svg>
+				</span>
+			</a>
+		</div>
+	
+			<div class="social-media-item">
+			<a href="" target="_blank" class="trigger-mouse-hover">
+				<span class="icon linkedin">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="247.64 741.891 100 100" enable-background="new 247.64 741.891 100 100" xml:space="preserve">
+						<path d="M248.641,839.955h22.824v-64.086h-22.824V839.955z"></path>
+						<path d="M260.053,743.826c-7.149,0-12.747,6.457-11.134,13.729c0.939,4.221,4.443,7.619,8.755,8.465c7.359,1.453,13.791-4.016,13.791-10.979C271.465,748.861,266.362,743.826,260.053,743.826"></path>
+						<path d="M346.481,795.555c-1.538-12.08-7.687-19.686-24.307-19.686c-11.796,0-16.485,1.811-19.191,6.865v-6.865h-18.475v64.086h19.012V806.41c0-8.379,1.613-14.705,12.154-14.705c10.393,0,11.22,7.791,11.22,15.242v33.008h19.587C346.481,839.955,346.839,798.379,346.481,795.555"></path>
+					</svg>
+				</span>
+			</a>
+		</div>
+	
+</div>
+		</div>
+	</div>
+	<div class="column order-3-mobile-portrait is-12-mobile-portrait">
+		<div class="content">
+			<p class="has-text-right has-text-centered-mobile-portrait">
+				<span class="logo-footer">
+					
+				</span>
+			</p>
+		</div>
+	</div>
+</div>		</div>
+	</div>
+</footer>
+
+
+	
+
+	<div class="fixed-buttons">
+		<div class="fixed-button dark-mode-button">
+			<span class="icon">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="595.279px" height="595.28px" viewBox="0 246.61 595.279 595.28" enable-background="new 0 246.61 595.279 595.28" xml:space="preserve">
+					<path d="M297.64,246.61C133.258,246.61,0,379.869,0,544.251c0,164.382,133.258,297.64,297.64,297.64s297.64-133.258,297.64-297.64C595.096,379.945,461.946,246.794,297.64,246.61z M41.054,544.251C41.209,402.606,155.996,287.82,297.64,287.665v513.172C155.996,800.682,41.209,685.895,41.054,544.251z"></path>
+				</svg>
+			</span>
+		</div>
+	</div>
+
+
+
+<div class="mouse-tracking">
+
+	<div class="mouse-default">
+	</div>
+
+	<div class="drag-icon">
+		<span class="drag-icons"></span>
+		<span class="drag-content"></span>
+	</div>
+
+</div>
+
+	<!-- End Document ================================================== -->
+
+<script>
+	window.onload = function() {
+		lax.setup() // init
+
+		const updateLax = () => {
+			lax.update(window.scrollY)
+			window.requestAnimationFrame(updateLax)
+		}
+
+		window.requestAnimationFrame(updateLax)
+	}
+	window.addEventListener("resize", function() {
+		lax.updateElements()
+	});
+
+	lax.addPreset("ubizzParallax", function() {
+		return {
+			"data-lax-translate-y": "vh 0, (-elh) (-vh*0.2)",
+			"data-lax-anchor": "self",
+		}
+	})
+</script>
+<script type='text/javascript' id='leadin-script-loader-js-js-extra'>
+</script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/js/navigatione1a0.js' %}" id='tag-navigation-js'></script>
+<script type='text/javascript' src=" {% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/js/skip-link-focus-fixe1a0.js' %}" id='tag-skip-link-focus-fix-js'></script>
+
+	
+	</body>
+</html>
+
+
+
+
+
+	

@@ -1,0 +1,406 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en-US">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+
+		<!-- Favicons ================================================== -->
+
+		<!-- ****** faviconit.com favicons ****** -->
+		<link rel="shortcut icon" href="https://secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon.ico">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_2e1a0.jpg' %}">
+		
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_proactive_planninge1a0.jpg' %}">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_dynamice1a0.jpg' %}">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/TAG_Home_About-2-mobilee1a0.jpg' %}">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_hold_1e1a0.jpg' %}">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/rallax.js' %}">
+
+
+
+		<link rel="icon" sizes="16x16 32x32 64x64" href="https://secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon.ico">
+
+
+		<link rel="icon" type="image/png" sizes="196x196" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-192.png' %}">
+
+		<link rel="icon" type="image/png" sizes="160x160" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-160.png' %}">
+		<link rel="icon" type="image/png" sizes="96x96" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-96.png' %}">
+		<link rel="icon" type="image/png" sizes="64x64" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-64.png' %}">
+		<link rel="icon" type="image/png" sizes="32x32" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-32.png' %}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-16.png' %}">
+		<link rel="apple-touch-icon" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-57.png' %}">
+		<link rel="apple-touch-icon" sizes="114x114" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-114.png' %}">
+		<link rel="apple-touch-icon" sizes="72x72" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-72.png' %}">
+		<link rel="apple-touch-icon" sizes="144x144" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-144.png' %}">
+		<link rel="apple-touch-icon" sizes="60x60" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-60.png' %}">
+		<link rel="apple-touch-icon" sizes="120x120" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-120.png' %}">
+		<link rel="apple-touch-icon" sizes="76x76" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-76.png' %}">
+		<link rel="apple-touch-icon" sizes="152x152" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-152.png' %}">
+		<link rel="apple-touch-icon" sizes="180x180" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-180.png' %}">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-144.png' %}">
+		<meta name="msapplication-config" content="https://secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/browserconfig.xml">
+		<!-- ****** faviconit.com favicons ****** -->
+		
+		
+
+		<title>The Allion Group</title>
+<meta name='robots' content='max-image-preview:large' />
+
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+
+<meta name="twitter:title" content="Homepage - The Allion Group" />
+
+<link rel='dns-prefetch' href="http://js.hs-scripts.com/" />
+<link rel='preconnect' href="https://secureservercdn.net/" crossorigin />
+<link rel='stylesheet' id='wp-block-library-css'  href="{% static 'secureservercdn.net/style.mine1a0.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='tag-style-css'  href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/stylee1a0.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='style.css-css'  href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/sass/stylese1a0.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-pro-5.10.2-css'  href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/third-party/fontawesome-pro-5.10.2/css/all.mine1a0.css' %}" type='text/css' media='all' />
+
+
+<link rel='stylesheet' id='swiper.css-css'  href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/css/swipere1a0.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='minibar.min-css'  href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/third-party/simple-scrollbar/simple-scrollbare1a0.css' %}" type='text/css' media='all' />
+
+
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-includes/js/jquery/jquery.mine1a0.js' %}" id='jquery-core-js'></script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-includes/js/jquery/jquery-migrate.mine1a0.js' %}" id='jquery-migrate-js'></script>
+
+
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/jquery-3.4.1.mine1a0.js' %}" id='jquery-3.3.1.min-js'></script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/css_browser_selectore1a0.js' %}" id='css_browser_selector-js'></script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/swiper.mine1a0.js' %}" id='swiper.min-js'></script>
+
+
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/laxe1a0.js' %}" id='lax-js'></script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/third-party/simple-scrollbar/simple-scrollbar.mine1a0.js' %}" id='simple-scrollbar.min-js'></script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/maine1a0.js' %}" id='main-js'></script>
+<script type="module" src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/main-vanillae1a0.js' %}"></script><link rel='shortlink' href='index.html' />
+			<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/cropped-favicontag-32x32.png' %}" sizes="32x32" />
+<link rel="icon" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/cropped-favicontag-192x192.png' %}" sizes="192x192" />
+<link rel="apple-touch-icon" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/cropped-favicontag-180x180.png' %}" />
+<meta name="msapplication-TileImage" content="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/cropped-favicontag-270x270.png' %}" />
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-24860589-2"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date()); gtag('config', 'UA-24860589-2');
+		</script>
+
+	</head>
+
+	<body class="page-template-default page page-id-288 is-night ubizz-contact">
+
+<!-- Primary Page Layout ================================================== -->
+
+	<div class="menu-container">
+		<div class="menu-container-top">
+			<div class="container is-fluid is-paddingless">
+				<div class="columns is-gapless is-mobile">
+					<div class="column main-logo">
+						<p>
+							<a href="{% url 'home' %}" class="trigger-mouse-hover">
+								<span class="brand-icon">
+									
+								</span>
+							</a>
+						</p>
+					</div>
+					<div class="column"></div>
+					<div class="column navigation-trigger-close is-active">
+						<span>
+							<svg width="100%" height="100%" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+								<path d="M0,30.323l1.581,1.581l12.522,-12.522l-1.581,-1.581l-12.522,12.522Z"></path>
+								<path id="Fill-2" d="M30.183,0.14l-12.522,12.522l1.581,1.581l12.522,-12.522l-1.581,-1.581Z"></path>
+								<path d="M1.581,0.14l-1.581,1.581l14.301,14.301l0,0l1.581,1.581l0,0l14.301,14.301l1.581,-1.581l-14.301,-14.301l0,0l-1.581,-1.581l0,0l-14.301,-14.301Z"></path>
+							</svg>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu-container-bottom">
+			<div class="container is-fluid">
+				<div class="columns is-mobile is-multiline">
+					<div class="column is-hidden-touch is-4-desktop">
+						<div class="content animated fullwidth-left is-navigation-image is-hidden-mobile">
+							<figure class="image menu-item-image">
+
+								<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Menu_Aboute1a0.jpg' %}" alt=" " class=""><img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Menu_Propertiese1a0.jpg' %}" alt=" " class=""><img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Menu_Bloge1a0.jpg' %}" alt=" " class=""><img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Menu_Contacte1a0.jpg' %}" alt=" " class="">
+							</figure>
+						</div>
+					</div>
+					<div class="column is-12-touch is-2-desktop is-offset-1-desktop">
+						<div class="content animated is-vspaced-between">
+							<div class="menu-item-tag is-hidden-touch">
+
+								<p class="">Our name stands for integrity and trust.</p><p class="">Find your perfect place.</p><p class="">Stay informed on the latest industrial real estate intelligence.</p><p class="">Our advisors are here to get you started.</p>
+							</div>
+							<div class="navigation-contact padding-top-3-mobile">
+								<p class="is-day-base-1 is-night-white">Contact us</p>
+								<p>
+									<a href="tel"></a><br>
+									<a href="mailto:"></a>
+								</p>
+
+									<p class="is-day-base-1 is-night-white"></p>
+									<p>
+										<a href="https://www.google.com/maps/place/La+Jolla+Commons,+4747+Executive+Dr+9th+Fl,+San+Diego,+CA+92121,+EUA/@32.875097,-117.2063248,17z/data=!3m1!4b1!4m5!3m4!1s0x80dc07339a70b201:0x4c34ec2294c3a814!8m2!3d32.875097!4d-117.2041308" target="_blank">										</a>
+									</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="column is-12-touch is-4-desktop is-offset-1-desktop">
+						<div class="content animated">
+							<div class="menu-content">
+
+								<div class="menu-item">
+											<a href="{% url 'about' %}" class=" trigger-mouse-hover">
+												<span class="icon-active">
+													<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="7px" height="10px" viewBox="0 0 7 10" enable-background="new 0 0 7 10" xml:space="preserve">
+														<polygon points="7,5 0,10 0,0 "></polygon>
+													</svg>
+												</span>
+												<span>About us</span>
+											</a>
+										</div><div class="menu-item">
+											<a href="{% url 'contact' %}" class=" trigger-mouse-hover">
+												<span class="icon-active">
+													<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="7px" height="10px" viewBox="0 0 7 10" enable-background="new 0 0 7 10" xml:space="preserve">
+														<polygon points="7,5 0,10 0,0 "></polygon>
+													</svg>
+												</span>
+												<span>Contact</span>
+											</a>
+										</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<header class="header is-absolute">
+	<div class="container is-fluid is-paddingless has-vertical-stripes">
+		<div class="has-vertical-stripes-inner">
+
+				
+<div class="columns is-gapless is-mobile">
+	<div class="column main-logo">
+		<p>
+			<a href="{% url 'home' %}" class="trigger-mouse-hover">
+				<span class="logo lax" data-lax-preset="ubizzFadeInUp">
+					
+				</span>
+			</a>
+		</p>
+	</div>
+	<div class="column"></div>
+	<div class="column navigation-trigger trigger-mouse-inverted trigger-mouse-hover">
+		<span>
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26px" height="26px" viewBox="0 15 26 26" enable-background="new 0 15 26 26" xml:space="preserve">
+				<rect y="36.75" width="11" height="2"></rect>
+				<rect x="13" y="36.75" width="13" height="2"></rect>
+				<rect y="27.25" width="11" height="2"></rect>
+				<rect x="13" y="27.25" width="13" height="2"></rect>
+				<rect y="17.25" width="11" height="2"></rect>
+				<rect x="13" y="17.25" width="13" height="2"></rect>
+			</svg>
+		</span>
+	</div>
+	<div class="column is-2-desktop is-4-mobile-portrait is-3-tablet-portrait logo-secondary">
+		<span>
+			
+		</span>
+	</div>
+</div>
+		</div>
+	</div>
+</header>
+
+<section class="section has-background-base-1">
+	<div class="container is-fluid">
+		<div class="columns is-mobile is-multiline padding-bottom-6-desktop padding-bottom-6-touch-landscape padding-bottom-3-touch-portrait">
+			<div class="column is-10-desktop is-offset-2-desktop is-10-touch-landscape is-offset-2-touch-landscape is-10-tablet-portrait is-offset-2-tablet-portrait is-9-mobile-portrait is-offset-3-mobile-portrait">
+				<div class="content fullwidth-right">
+					<div class="ub-parallax-container is-2by1 is-2by3-mobile-portrait">
+						<div class="ub-parallax-content lax" data-lax-preset="ubizzParallax">
+							<figure class="ub-parallax-image">
+								<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Contact_Hero-1920x1080.jpg' %}" alt=" ">
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column is-6-desktop is-6-touch-landscape is-6-tablet-portrait is-12-mobile-portrait is-overlay-contact">
+				<div class="content">
+					<h5 class="has-text-primary lax" data-lax-preset="ubizzFadeInUp" >Contact</h5>
+					<h2 class="is-title is-uppercase is-size-1 has-text-white lax" data-lax-preset="ubizzFadeInUp">Our advisors are here to get you started.</h2>
+				</div>
+			</div>
+		</div>
+		<div class="columns is-mobile is-multiline padding-bottom-6-desktop padding-bottom-6-touch-landscape padding-bottom-3-touch-portrait">
+			<div class="column is-5-desktop is-5-touch-landscape is-12-touch-portrait padding-bottom-6-desktop padding-bottom-6-touch-landscape padding-bottom-3-touch-portrait">
+				<div class="content">
+					<p class="has-text-white">Whether you are new to the market or you just want to reserve a comodity value, leave the hassle to us.</p>
+				</div>
+				<div class="content padding-top-2-desktop padding-top-2-touch-landscape">
+					<p class="has-text-white is-small">Contact us</p>
+					<p class="is-small">
+						<a href="tel:"></a><br>
+						<a href="mailto:"></a>
+					</p>
+				</div>
+
+									<div class="content padding-top-2-desktop padding-top-2-touch-landscape">
+						<p class="has-text-white is-small"></p>
+						<p class="is-small">
+							<a href="https://www.google.com/maps/place/La+Jolla+Commons,+4747+Executive+Dr+9th+Fl,+San+Diego,+CA+92121,+EUA/@32.875097,-117.2063248,17z/data=!3m1!4b1!4m5!3m4!1s0x80dc07339a70b201:0x4c34ec2294c3a814!8m2!3d32.875097!4d-117.2041308" target="_blank"><br>
+														</a>
+						</p>
+					</div>
+				
+			</div>
+			<div class="column is-6-desktop is-6-touch-landscape is-offset-1-desktop is-offset-1-touch-landscape is-12-touch-portrait">
+				<div class="content contact-form">
+
+					<script charset="utf-8" type="text/javascript" src="{% static 'js.hsforms.net/forms/shell.js' %}"></script>
+					
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer is-dark-mode is-fullheight trigger-mouse-inverted">
+
+	<div class="footer-body">
+		<div class="container is-fluid">
+			<div class="columns">
+	<div class="column is-12">
+		<div class="content has-text-centered is-fullheight is-vcentered is-jcenter">
+			<div>
+				<h5 class="lax" data-lax-preset="ubizzFadeInUp">Contact us</h5>
+				<p class="is-huge lax" data-lax-preset="ubizzFadeInUp"><a href="{% url 'contact' %}" class="trigger-mouse-hover is-huge footerHoverColor">Let's get specific</a></p>
+			</div>
+		</div>
+	</div>
+</div>		</div>
+	</div>
+	<div class="footer-foot">
+		<div class="container is-fluid">
+			<div class="columns is-vcentered reorder-mobile-portrait is-multiline is-mobile footer-columns">
+	<div class="column order-2-mobile-portrait is-12-mobile-portrait">
+		<div class="content is-small is-copyright has-text-centered-mobile-portrait padding-top-2-mobile-portrait padding-bottom-2-mobile-portrait">
+			<p>&copy; 2021 
+The Allion Group
+</p>
+<p><span><a href="" class="trigger-mouse-hover">Privacy Policy</a></span><span><a href="" class="trigger-mouse-hover">Terms of use</a></span></p>		</div>
+	</div>
+	<div class="column order-1-mobile-portrait is-12-mobile-portrait">
+		<div class="content">
+			<div class="social-media">
+
+	
+	
+			<div class="social-media-item">
+			<a href="" target="_blank" class="trigger-mouse-hover">
+				<span class="icon instagram">
+				</span>
+			</a>
+		</div>
+	
+			<div class="social-media-item">
+			<a href="" target="_blank" class="trigger-mouse-hover">
+				<span class="icon linkedin">
+					
+				</span>
+			</a>
+		</div>
+	
+</div>
+		</div>
+	</div>
+	<div class="column order-3-mobile-portrait is-12-mobile-portrait">
+		<div class="content">
+			<p class="has-text-right has-text-centered-mobile-portrait">
+				<span class="logo-footer">
+					
+				</span>
+			</p>
+		</div>
+	</div>
+</div>		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+<div class="mouse-tracking">
+
+	<div class="mouse-default">
+	</div>
+
+	<div class="drag-icon">
+		<span class="drag-icons"></span>
+		<span class="drag-content"></span>
+	</div>
+
+</div>
+
+<!-- End Document ================================================== -->
+
+	<script>
+	window.onload = function() {
+		lax.setup() // init
+
+		const updateLax = () => {
+			lax.update(window.scrollY)
+			window.requestAnimationFrame(updateLax)
+		}
+
+		window.requestAnimationFrame(updateLax)
+	}
+	window.addEventListener("resize", function() {
+		lax.updateElements()
+	});
+
+	lax.addPreset("ubizzParallax", function() {
+		return {
+			"data-lax-translate-y": "vh 0, (-elh) (-vh*0.2)",
+			"data-lax-anchor": "self",
+		}
+	})
+</script>
+<script type='text/javascript' id='leadin-script-loader-js-js-extra'>
+</script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/js/navigatione1a0.js' %}" id='tag-navigation-js'></script>
+<script type='text/javascript' src=" {% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/js/skip-link-focus-fixe1a0.js' %}" id='tag-skip-link-focus-fix-js'></script>
+
+	
+	</body>
+</html>
+
+

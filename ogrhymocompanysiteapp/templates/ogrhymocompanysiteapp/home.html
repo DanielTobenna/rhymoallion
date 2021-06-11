@@ -1,0 +1,1054 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en-US">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+
+		<!-- Favicons ================================================== -->
+
+		<!-- ****** faviconit.com favicons ****** -->
+		<link rel="shortcut icon" href="https://secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon.ico">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_2e1a0.jpg' %}">
+		
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_proactive_planninge1a0.jpg' %}">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_dynamice1a0.jpg' %}">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/TAG_Home_About-2-mobilee1a0.jpg' %}">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_hold_1e1a0.jpg' %}">
+
+		<link rel="stylesheet" type="text/css" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/rallax.js' %}">
+
+
+
+		<link rel="icon" sizes="16x16 32x32 64x64" href="https://secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon.ico">
+
+
+		<link rel="icon" type="image/png" sizes="196x196" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-192.png' %}">
+
+		<link rel="icon" type="image/png" sizes="160x160" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-160.png' %}">
+		<link rel="icon" type="image/png" sizes="96x96" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-96.png' %}">
+		<link rel="icon" type="image/png" sizes="64x64" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-64.png' %}">
+		<link rel="icon" type="image/png" sizes="32x32" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-32.png' %}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-16.png' %}">
+		<link rel="apple-touch-icon" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-57.png' %}">
+		<link rel="apple-touch-icon" sizes="114x114" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-114.png' %}">
+		<link rel="apple-touch-icon" sizes="72x72" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-72.png' %}">
+		<link rel="apple-touch-icon" sizes="144x144" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-144.png' %}">
+		<link rel="apple-touch-icon" sizes="60x60" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-60.png' %}">
+		<link rel="apple-touch-icon" sizes="120x120" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-120.png' %}">
+		<link rel="apple-touch-icon" sizes="76x76" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-76.png' %}">
+		<link rel="apple-touch-icon" sizes="152x152" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-152.png' %}">
+		<link rel="apple-touch-icon" sizes="180x180" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-180.png' %}">
+		<meta name="msapplication-TileColor" content="#FFFFFF">
+		<meta name="msapplication-TileImage" content="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/favicon-144.png' %}">
+		<meta name="msapplication-config" content="https://secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/images/favicon/browserconfig.xml">
+		<!-- ****** faviconit.com favicons ****** -->
+		
+		
+
+		<title>The Allion Group</title>
+<meta name='robots' content='max-image-preview:large' />
+
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+
+<meta name="twitter:title" content="Homepage - BANCO DE CRYPTO" />
+
+<link rel='dns-prefetch' href="http://js.hs-scripts.com/" />
+<link rel='preconnect' href="https://secureservercdn.net/" crossorigin />
+<link rel='stylesheet' id='wp-block-library-css'  href="{% static 'secureservercdn.net/style.mine1a0.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='tag-style-css'  href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/stylee1a0.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='style.css-css'  href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/sass/stylese1a0.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-pro-5.10.2-css'  href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/third-party/fontawesome-pro-5.10.2/css/all.mine1a0.css' %}" type='text/css' media='all' />
+
+
+<link rel='stylesheet' id='swiper.css-css'  href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/css/swipere1a0.css' %}" type='text/css' media='all' />
+<link rel='stylesheet' id='minibar.min-css'  href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/third-party/simple-scrollbar/simple-scrollbare1a0.css' %}" type='text/css' media='all' />
+
+
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-includes/js/jquery/jquery.mine1a0.js' %}" id='jquery-core-js'></script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-includes/js/jquery/jquery-migrate.mine1a0.js' %}" id='jquery-migrate-js'></script>
+
+
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/jquery-3.4.1.mine1a0.js' %}" id='jquery-3.3.1.min-js'></script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/css_browser_selectore1a0.js' %}" id='css_browser_selector-js'></script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/swiper.mine1a0.js' %}" id='swiper.min-js'></script>
+
+
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/laxe1a0.js' %}" id='lax-js'></script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/third-party/simple-scrollbar/simple-scrollbar.mine1a0.js' %}" id='simple-scrollbar.min-js'></script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/maine1a0.js' %}" id='main-js'></script>
+<script type="module" src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/assets/js/main-vanillae1a0.js' %}"></script><link rel='shortlink' href='index.html' />
+			<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/cropped-favicontag-32x32.png' %}" sizes="32x32" />
+<link rel="icon" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/cropped-favicontag-192x192.png' %}" sizes="192x192" />
+<link rel="apple-touch-icon" href="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/cropped-favicontag-180x180.png' %}" />
+<meta name="msapplication-TileImage" content="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/cropped-favicontag-270x270.png' %}" />
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-24860589-2"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date()); gtag('config', 'UA-24860589-2');
+		</script>
+
+	</head>
+	<!-- Begin of Chaport Live Chat code -->
+<script type="text/javascript">
+(function(w,d,v3){
+w.chaportConfig = {
+  appId : '60c26b89027ebe68801fe531'
+};
+
+if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push(arguments)};v3.on=function(e,fn){if(!v3._l[e])v3._l[e]=[];v3._l[e].push(fn)};var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://app.chaport.com/javascripts/insert.js';var ss=d.getElementsByTagName('script')[0];ss.parentNode.insertBefore(s,ss)})(window, document);
+</script>
+<!-- End of Chaport Live Chat code -->
+	<body class="home page-template-default page page-id-6 is-night ubizz-homepage">
+	<!-- Primary Page Layout ================================================== -->
+
+	<div class="menu-container">
+		<div class="menu-container-top">
+			<div class="container is-fluid is-paddingless">
+				<div class="columns is-gapless is-mobile">
+					<div class="column main-logo">
+						<p>
+							<a href="{% url 'home' %}" class="trigger-mouse-hover">
+								<span class="brand-icon">
+									
+								</span>
+							</a>
+						</p>
+					</div>
+					<div class="column"></div>
+					<div class="column navigation-trigger-close is-active">
+						<span>
+							
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="menu-container-bottom">
+			<div class="container is-fluid">
+				<div class="columns is-mobile is-multiline">
+					<div class="column is-hidden-touch is-4-desktop">
+						<div class="content animated fullwidth-left is-navigation-image is-hidden-mobile">
+							<figure class="image menu-item-image">
+
+								<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Menu_Aboute1a0.jpg' %}" alt=" " class=""><img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Menu_Propertiese1a0.jpg' %}" alt=" " class="">
+								<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Menu_Bloge1a0.jpg' %}" alt=" " class=""><img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Menu_Contacte1a0.jpg' %}" alt=" " class="">
+							</figure>
+						</div>
+					</div>
+					<div class="column is-12-touch is-2-desktop is-offset-1-desktop">
+						<div class="content animated is-vspaced-between">
+							<div class="menu-item-tag is-hidden-touch">
+
+								<p class="">We are experts you can trust.</p><p class="">Hand it over to us.</p><p class="">Stay informed on what's trending.</p><p class="">Experts at reserving value and value raising company.</p>
+							</div>
+							<div class="navigation-contact padding-top-3-mobile">
+								<p class="is-day-base-1 is-night-white">Contact us</p>
+								<p>
+									<a href="tel:"></a><br>
+									<a href="mailto:">info@</a>
+								</p>
+
+									<p class="is-day-base-1 is-night-white">Manilla, Phillipine.</p>
+									<p>
+										<a href="#" target="_blank">4747 Executive Dr., 8th FL.<br>
+											Manilla										</a>
+									</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="column is-12-touch is-4-desktop is-offset-1-desktop">
+						<div class="content animated">
+							<div class="menu-content">
+
+								<div class="menu-item">
+											<a href="{% url 'about' %}" class=" trigger-mouse-hover">
+												<span class="icon-active">
+													<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="7px" height="10px" viewBox="0 0 7 10" enable-background="new 0 0 7 10" xml:space="preserve">
+														<polygon points="7,5 0,10 0,0 "></polygon>
+													</svg>
+												</span>
+												<span>About us</span>
+											</a>
+										</div><div class="menu-item">
+											<a href="{% url 'contact' %}" class=" trigger-mouse-hover">
+												<span class="icon-active">
+													<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="7px" height="10px" viewBox="0 0 7 10" enable-background="new 0 0 7 10" xml:space="preserve">
+														<polygon points="7,5 0,10 0,0 "></polygon>
+													</svg>
+												</span>
+												<span>Contact</span>
+											</a>
+										</div>
+										<div class="menu-item">
+											<a href="{% url 'dashboard' %}" class=" trigger-mouse-hover">
+												<span class="icon-active">
+													<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="7px" height="10px" viewBox="0 0 7 10" enable-background="new 0 0 7 10" xml:space="preserve">
+														<polygon points="7,5 0,10 0,0 "></polygon>
+													</svg>
+												</span>
+												<span>Dashboard</span>
+											</a>
+										</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<header class="header has-background-day-white has-background-night-base-1 ">
+	<div class="container is-fluid is-paddingless has-vertical-stripes">
+		<div class="has-vertical-stripes-inner">
+
+				
+<div class="columns is-gapless is-mobile">
+	<div class="column main-logo">
+		<p>
+			<a href="{% url 'home' %}" class="trigger-mouse-hover">
+				<span class="logo is-day-base-1 is-night-white lax" data-lax-preset="ubizzFadeInUp">
+					
+				</span>
+			</a>
+		</p>
+	</div>
+	<div class="column"></div>
+	<div class="column navigation-trigger trigger-mouse-inverted trigger-mouse-hover">
+		<span>
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26px" height="26px" viewBox="0 15 26 26" enable-background="new 0 15 26 26" xml:space="preserve">
+				<rect y="36.75" width="11" height="2"></rect>
+				<rect x="13" y="36.75" width="13" height="2"></rect>
+				<rect y="27.25" width="11" height="2"></rect>
+				<rect x="13" y="27.25" width="13" height="2"></rect>
+				<rect y="17.25" width="11" height="2"></rect>
+				<rect x="13" y="17.25" width="13" height="2"></rect>
+			</svg>
+		</span>
+	</div>
+	<div class="column is-2-desktop is-4-mobile-portrait is-3-tablet-portrait logo-secondary">
+		<a class="navbar-brand" href="{% url 'home' %}" style="color: #ffffff;"><i><b>The Allion Group</b></i></a>
+		<span>
+			
+		</span>
+	</div>
+</div>
+		</div>
+	</div>
+</header>
+
+<div class="header-spacing"></div>
+	
+<div class="hero has-background-day-white has-background-night-base-1 is-fullheight has-header-spacing">
+
+	<div class="hero-body">
+		<div class="container is-fluid is-paddingless has-vertical-stripes">
+			<div class="has-vertical-stripes-inner">
+
+				<div class="home-hero-slider">
+
+					<div class="home-hero-navigation-container">
+						<div class="columns is-gapless">
+							<div class="column is-5-touch-landscape is-5-desktop">
+								<div class="columns is-gapless home-hero-navigation">
+									<div class="column is-3">
+										<p class="trigger-mouse-hover">
+											<span class="slider-number">1</span>
+											<span class="slider-active">
+												<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="8px" height="6px" viewBox="0 0 8 6" enable-background="new 0 0 8 6" xml:space="preserve">
+													<polygon points="4,0 8,6 0,6 "></polygon>
+												</svg>
+											</span>
+										</p>
+									</div>
+									<div class="column is-3">
+										<p class="trigger-mouse-hover">
+											<span class="slider-number">2</span>
+											<span class="slider-active">
+												<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="8px" height="6px" viewBox="0 0 8 6" enable-background="new 0 0 8 6" xml:space="preserve">
+													<polygon points="4,0 8,6 0,6 "></polygon>
+												</svg>
+											</span>
+										</p>
+									</div>
+									<div class="column is-3">
+										<p class="trigger-mouse-hover">
+											<span class="slider-number">3</span>
+											<span class="slider-active">
+												<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="8px" height="6px" viewBox="0 0 8 6" enable-background="new 0 0 8 6" xml:space="preserve">
+													<polygon points="4,0 8,6 0,6 "></polygon>
+												</svg>
+											</span>
+										</p>
+									</div>
+									<div class="column is-3">
+										<p class="trigger-mouse-hover">
+											<span class="slider-number">4</span>
+											<span class="slider-active">
+												<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="8px" height="6px" viewBox="0 0 8 6" enable-background="new 0 0 8 6" xml:space="preserve">
+													<polygon points="4,0 8,6 0,6 "></polygon>
+												</svg>
+											</span>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="home-hero-wrapper">
+
+						<div class="home-hero-slide">
+										<div class="columns is-mobile is-multiline is-gapless is-reverse-landscape">
+											<div class="column is-12-touch-portrait is-10-touch-landscape is-10-desktop is-offset-3-negative-touch-landscape is-offset-3-negative-desktop">
+												<div class="home-hero-image fullwidth-right">
+													<div class="ub-parallax-container">
+														<div class="ub-parallax-content lax" data-lax-preset="ubizzParallax">
+															<figure class="ub-parallax-image">
+																<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/TAG_Home_Hero_1-2e1a0.jpg' %}" alt=" ">
+															</figure>
+														</div>
+													</div>
+												</div>
+											</div>
+										<div class="column is-5-desktop is-5-touch-landscape is-8-tablet-portrait is-12-mobile-portrait  is-layer-top">
+											<div class="content home-hero-content">
+												<h2 class="is-title is-uppercase is-size-1 is-day-base-1 is-night-white">We excel in increasing value and reserving value of almost any commodity.</h2>
+												<p class="is-day-base-1 is-night-white">Our expert team of brokers delivers full-service, turn-key solutions for industrial investors and traders.</p>
+											</div>
+										</div>
+									</div>
+								</div><div class="home-hero-slide">
+										<div class="columns is-mobile is-multiline is-gapless is-reverse-landscape">
+											<div class="column is-12-touch-portrait is-10-touch-landscape is-10-desktop is-offset-3-negative-touch-landscape is-offset-3-negative-desktop">
+												<div class="home-hero-image fullwidth-right">
+													<div class="ub-parallax-container">
+														<div class="ub-parallax-content lax" data-lax-preset="ubizzParallax">
+															<figure class="ub-parallax-image">
+																<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_Hero_2e1a0.jpg' %}" alt=" ">
+															</figure>
+														</div>
+													</div>
+												</div>
+											</div>
+										<div class="column is-5-desktop is-5-touch-landscape is-8-tablet-portrait is-12-mobile-portrait  is-layer-top">
+											<div class="content home-hero-content">
+												<h2 class="is-title is-uppercase is-size-1 is-day-base-1 is-night-white">We excel in increasing value and reserving value of any commodity.</h2>
+												<p class="is-day-base-1 is-night-white">Our expert team of brokers delivers full-service, turn-key solutions for industrial investors and traders.</p>
+											</div>
+										</div>
+									</div>
+								</div><div class="home-hero-slide">
+										<div class="columns is-mobile is-multiline is-gapless is-reverse-landscape">
+											<div class="column is-12-touch-portrait is-10-touch-landscape is-10-desktop is-offset-3-negative-touch-landscape is-offset-3-negative-desktop">
+												<div class="home-hero-image fullwidth-right">
+													<div class="ub-parallax-container">
+														<div class="ub-parallax-content lax" data-lax-preset="ubizzParallax">
+															<figure class="ub-parallax-image">
+																<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_Hero_3e1a0.jpg' %}" alt=" ">
+															</figure>
+														</div>
+													</div>
+												</div>
+											</div>
+										<div class="column is-5-desktop is-5-touch-landscape is-8-tablet-portrait is-12-mobile-portrait  is-layer-top">
+											<div class="content home-hero-content">
+												<h2 class="is-title is-uppercase is-size-1 is-day-base-1 is-night-white">We excel in increasing value of and reserving value of any commodity.</h2>
+												<p class="is-day-base-1 is-night-white">Our expert team of brokers delivers full-service, turn-key solutions for industrial investors and traders.</p>
+											</div>
+										</div>
+									</div>
+								</div><div class="home-hero-slide">
+										<div class="columns is-mobile is-multiline is-gapless is-reverse-landscape">
+											<div class="column is-12-touch-portrait is-10-touch-landscape is-10-desktop is-offset-3-negative-touch-landscape is-offset-3-negative-desktop">
+												<div class="home-hero-image fullwidth-right">
+													<div class="ub-parallax-container">
+														<div class="ub-parallax-content lax" data-lax-preset="ubizzParallax">
+															<figure class="ub-parallax-image">
+																<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2020/01/DSC05611-scalede1a0.jpg' %}" alt=" ">
+															</figure>
+														</div>
+													</div>
+												</div>
+											</div>
+										<div class="column is-5-desktop is-5-touch-landscape is-8-tablet-portrait is-12-mobile-portrait  is-layer-top">
+											<div class="content home-hero-content">
+												<h2 class="is-title is-uppercase is-size-1 is-day-base-1 is-night-white">We excel in increasing value and reserving value of any commodity.</h2>
+												<p class="is-day-base-1 is-night-white">Our expert team of brokers delivers full-service, turn-key solutions for industrial investors and traders.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section class="section has-background-day-white has-background-night-base-1">
+
+	<!-- TAG Icon -->
+	<div class="container is-fluid has-vertical-stripes">
+		<div class="has-vertical-stripes-inner">
+			<div class="columns padding-top-6-desktop padding-top-6-touch-landscape padding-top-3-touch-portrait padding-bottom-6-desktop padding-bottom-6-touch-landscape padding-bottom-3-touch-portrait">
+				<div class="column is-12">
+					<div class="content">
+						<figure class="image has-text-left lax" data-lax-preset="ubizzFadeInUp">
+							<span class="content-logo logo has-text-primary">
+								
+							</span>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section has-background-day-white has-background-night-base-1">
+
+	<!-- Where We Lead-->
+	<div class="container is-fluid has-vertical-stripes">
+		<div class="has-vertical-stripes-inner">
+			<div class="columns is-mobile is-multiline padding-bottom-6-desktop padding-bottom-6-touch-landscape">
+				<div class="column is-12-touch-portrait is-8-touch-landscape is-9-desktop order-1-touch-portrait has-3D-shadow-item">
+					<div class="content has-3D-shadow dark-mode has-3D-shadow-right is-fullheight fullwidth-left is-fullwidth-left-right-touch-portrait">
+						<span class="shadow-3D-right"></span>
+						<span class="shadow-3D-bottom"></span>
+						<div class="ub-parallax-container is-3by2-touch-portrait">
+							<div class="ub-parallax-content lax" data-lax-preset="ubizzParallax">
+								<figure class="ub-parallax-image">
+									<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_2e1a0.jpg?time=1602744372' %}" alt=" ">
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="column is-3-desktop is-4-touch-landscape is-12-touch-portrait order-3-touch-portrait">
+					<div class="content is-fullheight is-sbetween padding-top-2-touch-portrait is-hidden-touch-portrait">
+						<div class="title-vertical-1 lax" data-lax-preset="ubizzFadeInUp">
+							<h5 class="has-text-white is-transparent" >Where we lead</h5>
+							<h5 class="has-text-primary is-rotated" >Where we lead</h5>
+						</div>
+						<p class="is-day-base-1 is-night-white lax" data-lax-preset="ubizzFadeInUp">No other team provides you with better local market knowledge and more thorough brokage services.</p>
+						<div class="sided-parallax-text-placeholder is-hidden-touch-portrait">
+							<p class="is-jumbo is-title">
+								<span class="is-day-primary is-night-white">Our Experience</span>
+								<span class="is-day-primary is-night-white">is your advantage.</span>
+							</p>
+						</div>
+					</div>
+					<div class="content is-fullheight is-sbetween padding-top-2-touch-portrait is-hidden-touch-landscape is-hidden-desktop">
+						<div class="columns is-mobile is-vcentered">
+							<div class="column is-4">
+								<div class="title-vertical-1 lax" data-lax-preset="ubizzFadeInUp">
+									<h5 class="has-text-white is-transparent" >Where we lead</h5>
+									<h5 class="has-text-primary is-rotated" >Where we lead</h5>
+								</div>
+							</div>
+							<div class="column is-8">
+								<p class="is-day-base-1 is-night-white lax" data-lax-preset="ubizzFadeInUp">No other team provides you with better local market knowledge and more thorough brokage services.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="column is-12 order-2-touch-portrait">
+					<div class="content sided-parallax-text">
+						<p class="is-jumbo is-title">
+							<span class="is-day-primary is-night-white lax left-to-right" data-lax-translate-x="vh 0, -elh (vw*1)" data-lax-anchor="self">Our Experience</span>
+							<span class="is-day-primary is-night-white lax right-to-left" data-lax-preset="rightToLeft">is your advantage.</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Our Promise -->
+	<div class="container is-fluid has-vertical-stripes">
+		<div class="has-vertical-stripes-inner">
+			<div class="columns is-mobile is-multiline padding-top-6-desktop padding-top-6-touch-landscape padding-top-3-touch-portrait padding-bottom-12-desktop padding-bottom-12-touch-landscape padding-bottom-3-touch-portrait">
+				<div class="column is-3-touch-landscape is-offset-1-touch-landscape is-3-desktop is-offset-1-desktop is-5-tablet-portrait is-12-mobile-portrait">
+					<div class="content is-fullheight is-sbetween padding-bottom-2-touch-portrait lax" data-lax-preset="ubizzFadeInUp">
+						<h5 class="has-text-primary lax" data-lax-preset="ubizzFadeInUp">Our Promise</h5>
+						<h3 class="is-size-4 is-day-base-1 is-night-white lax" data-lax-preset="ubizzFadeInUp">We earn your trust through unmatched levels of service.</h3>
+						<p>
+							<a href="{% url 'about' %}" class="button trigger-mouse-hover lax" data-lax-preset="ubizzFadeInUp">
+								<span>Find out more</span>
+								<span class="icon">
+									<svg width="100%" height="100%" viewBox="0 0 5 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+										<path d="M0.214,1.004l3.221,3.396l-3.221,3.396c-0.28,0.268 -0.285,0.535 -0.017,0.803c0.268,0.268 0.531,0.268 0.788,0l3.64,-3.797c0.117,-0.098 0.175,-0.232 0.175,-0.402c0,-0.17 -0.058,-0.304 -0.175,-0.402l-3.64,-3.797c-0.257,-0.268 -0.52,-0.268 -0.788,0c-0.268,0.268 -0.263,0.535 0.017,0.803Z"></path>
+									</svg>
+								</span>
+							</a>
+						</p>
+					</div>
+				</div>
+				<div class="column is-7-touch-landscape is-offset-1-touch-landscape is-7-desktop is-offset-1-desktop is-6-tablet-portrait is-offset-1-tablet-portrait is-12-mobile-portrait">
+					<div class="content hover-image-trigger">
+
+						<p class="is-size-2 lax" data-lax-preset="ubizzFadeInUp">
+							<span class="icon-active">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="7px" height="10px" viewBox="0 0 7 10" enable-background="new 0 0 7 10" xml:space="preserve">
+									<polygon points="7,5 0,10 0,0 "></polygon>
+								</svg>
+							</span>
+							<span class="is-day-primary is-night-white">Proactive planning</span>
+						</p>
+						<p class="is-size-2 lax" data-lax-preset="ubizzFadeInUp">
+							<span class="icon-active">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="7px" height="10px" viewBox="0 0 7 10" enable-background="new 0 0 7 10" xml:space="preserve">
+									<polygon points="7,5 0,10 0,0 "></polygon>
+								</svg>
+							</span>
+							<span class="is-day-primary is-night-white">Dynamic strategies</span>
+						</p>
+						<p class="is-size-2 lax" data-lax-preset="ubizzFadeInUp">
+							<span class="icon-active">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="7px" height="10px" viewBox="0 0 7 10" enable-background="new 0 0 7 10" xml:space="preserve">
+									<polygon points="7,5 0,10 0,0 "></polygon>
+								</svg>
+							</span>
+							<span class="is-day-primary is-night-white">Effective processes</span>
+						</p>
+						<p class="is-size-2 lax" data-lax-preset="ubizzFadeInUp">
+							<span class="icon-active">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="7px" height="10px" viewBox="0 0 7 10" enable-background="new 0 0 7 10" xml:space="preserve">
+									<polygon points="7,5 0,10 0,0 "></polygon>
+								</svg>
+							</span>
+							<span class="is-day-primary is-night-white">Focused on your goals</span>
+						</p>
+
+						<div class="is-hidden-touch-portrait hover-image-trigged lax" data-lax-preset="ubizzFadeInUp">
+							<figure class="image">
+								<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_proactive_planninge1a0.jpg?time=1602744372' %}" alt=" ">
+								<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_dynamice1a0.jpg?time=1602744372' %}" alt=" ">
+								<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_effectivee1a0.jpg' %}" alt=" ">
+								<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/TAG_Home_focused-2e1a0.jpg' %}" alt=" ">
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- About Us -->
+<section class="section has-background-day-white has-background-night-base-1 is-fullheight">
+
+	<div class="background-image is-fullwidth">
+		<div class="ub-parallax-container">
+			<div class="ub-parallax-content lax" data-lax-preset="ubizzParallax">
+				<figure class="ub-parallax-image">
+					<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/TAG_Home_About-2-mobilee1a0.jpg?time=1602744372' %}" alt=" " class="is-hidden-touch-landscape is-hidden-desktop">
+					<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/TAG_Home_About-2e1a0.jpg' %}" alt="" class="is-hidden-touch-portrait">
+				</figure>
+			</div>
+		</div>
+	</div>
+
+	<div class="container is-fluid">
+		<div class="columns is-mobile is-multiline padding-top-2-desktop padding-bottom-2-desktop padding-bottom-2-touch-landscape padding-bottom-2-touch-portrait">
+			<div class="column is-5-touch-landscape is-5-desktop is-12-touch-portrait">
+				<div class="content has-text-white is-fullheight is-vcentered">
+					<div>
+						<h5 class="has-text-white lax" data-lax-preset="ubizzFadeInUp">About us</h5>
+						<h3 class="is-size-4 has-text-white lax" data-lax-preset="ubizzFadeInUp"> We settle for nothing less than the ideal solution for any of your commodity. With us on your side, you are ready for what's next.</h3>
+					</div>
+				</div>
+			</div>
+			<div class="column is-7-touch-landscape is-7-desktop is-12-touch-portrait">
+				<div class="content has-text-right is-fullheight is-vbottom is-hright">
+					<p>
+						<a href="" class="button trigger-mouse-hover lax" data-lax-preset="ubizzFadeInUpNoOffset">
+							<span>How we do it</span>
+							<span class="icon">
+								<svg width="100%" height="100%" viewBox="0 0 5 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+									<path d="M0.214,1.004l3.221,3.396l-3.221,3.396c-0.28,0.268 -0.285,0.535 -0.017,0.803c0.268,0.268 0.531,0.268 0.788,0l3.64,-3.797c0.117,-0.098 0.175,-0.232 0.175,-0.402c0,-0.17 -0.058,-0.304 -0.175,-0.402l-3.64,-3.797c-0.257,-0.268 -0.52,-0.268 -0.788,0c-0.268,0.268 -0.263,0.535 0.017,0.803Z"></path>
+								</svg>
+							</span>
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Why Hire Us -->
+<section class="section has-background-day-white has-background-night-base-1">
+	<div class="container is-fluid has-vertical-stripes">
+		<div class="has-vertical-stripes-inner">
+			<div class="columns is-vcentered is-mobile is-multiline padding-top-12-desktop padding-top-12-touch-landscape padding-bottom-12-desktop padding-bottom-12-touch-landscape padding-top-3-touch-portrait padding-bottom-3-touch-portrait">
+				<div class="column is-6-desktop is-6-touch-landscape is-5-tablet-portrait is-12-mobile-portrait padding-bottom-3-mobile-portrait">
+					<div class="content">
+						<h5 class="has-text-primary lax" data-lax-preset="ubizzFadeInUp">Why hire us</h5>
+						<h2 class="is-day-base-1 is-night-white is-size-2 lax" data-lax-preset="ubizzFadeInUp">We create business equity through actionable insights.</h2>
+						<div class="columns">
+							<div class="column is-8-desktop is-8-touch-landscape">
+								<p class="is-day-base-1 is-night-white lax" data-lax-preset="ubizzFadeInUp">Whether you are an industrial investor or trader, we craft the right strategy for your needs and interests.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="column is-5-desktop is-5-touch-landscape is-offset-1-desktop is-offset-1-touch-landscape is-offset-1-tablet-portrait is-6-tablet-portrait is-12-mobile-portrait has-3D-shadow-item padding-bottom-3-mobile-portrait">
+					<div class="content">
+						<figure class="image has-3D-shadow dark-mode has-3D-shadow-left lax" data-lax-preset="ubizzFadeInUp">
+							<span class="shadow-3D-left"></span>
+							<span class="shadow-3D-bottom"></span>
+							<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_hold_1e1a0.jpg' %}" alt=" ">
+						</figure>
+						<div class="button-hold trigger-mouse-hover trigger-mouse-inverted lax" data-lax-scale="(vh) 0.05, (vh*0.8) 1 | offset=10" data-lax-anchor="self">
+							<span class="outter-background">
+								<span class="border">
+									<svg viewBox='0 0 204 204'>
+										<circle cx='102' cy='102' r='100' stroke-linecap='round'></circle>
+									</svg>
+								</span>
+								<span class="inner-background">
+									Hold to<br>learn more
+								</span>
+
+								<span class="inner-background-active">
+								</span>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Horizontal Text #01 -->
+	<div class="container is-fluid horizontal-stripes horizontal-stripes-first">
+		<div class="columns is-mobile is-vcentered stripesHoverMarqee trigger-mouse-inverted padding-top-1-touch-portrait padding-bottom-1-touch-portrait lax" data-lax-preset="ubizzFadeInUp">
+			<div class="column is-8-desktop is-6-tablet is-6-mobile">
+				<div class="content">
+					<p class="is-jumbo is-title has-text-primary">$4B.</p>
+				</div>
+			</div>
+			<div class="column is-4-desktop is-6-tablet is-6-mobile">
+				<div class="media">
+					<figure class="media-left is-hidden-touch-portrait">
+						<p class="image is-48x48">
+							<span class="icon is-primary">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M53.927,52.786l1.431,0.711c4.443,2.056,7.774,4.093,9.998,6.111c2.223,2.018,3.334,4.766,3.334,8.244c0,4.111-1.588,7.315-4.762,9.607c-3.177,2.293-7.143,3.441-11.905,3.441c-9.286,0-16.785-4.669-22.5-13.997L25,70.104c5.636,9.729,13.452,15.146,23.451,16.253V100h6.072V86.477c5.952-0.474,10.854-2.395,14.702-5.752C73.075,77.362,75,73.07,75,67.853c0-4.668-1.488-8.463-4.465-11.389c-2.976-2.924-7.124-5.613-12.441-8.066l-1.667-0.711L53.927,52.786z M48.451,0v13.997c-5.158,0.633-9.423,2.472-12.796,5.516c-3.374,3.045-5.06,6.979-5.06,11.805c0,4.585,1.508,8.303,4.523,11.148c3.016,2.849,6.944,5.26,11.785,7.236l1.429,0.595l2.381-5.101l-1.309-0.594c-4.207-1.979-7.342-3.955-9.405-5.932c-2.062-1.979-3.095-4.508-3.095-7.591c0-3.955,1.527-6.862,4.583-8.72s6.647-2.787,10.772-2.787c6.985,0,12.7,3.28,17.144,9.844l4.285-3.32c-4.762-7.434-11.151-11.506-19.166-12.218V0H48.451z"></path>
+								</svg>
+							</span>
+						</p>
+					</figure>
+					<div class="media-content">
+						<div class="content">
+							<p class="is-day-base-1 is-night-white">Over $4 billion transacted in industrial and commercial projects</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ticker-wrap">
+				<div class="ticker">
+					<div class="ticker__item content">
+						<p class="is-jumbo is-title is-day-base-1 is-night-base-1">Over $4 billion transacted in industrial and commercial projects</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Horizontal Text #02 -->
+	<div class="container is-fluid horizontal-stripes">
+		<div class="columns is-mobile is-vcentered stripesHoverMarqee trigger-mouse-inverted padding-top-1-touch-portrait padding-bottom-1-touch-portrait lax" data-lax-preset="ubizzFadeInUp">
+			<div class="column is-8-desktop is-6-tablet is-6-mobile">
+				<div class="content">
+					<p class="is-jumbo is-title has-text-primary">1,409</p>
+				</div>
+			</div>
+			<div class="column is-4-desktop is-6-tablet is-6-mobile">
+				<div class="media">
+					<figure class="media-left is-primary is-hidden-touch-portrait">
+						<p class="image is-48x48">
+							<span class="icon is-primary">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+									<polygon fill-rule="evenodd" clip-rule="evenodd" points="74.465,35.489 70.362,32.234 48.551,59.265 35.848,46.671 32.132,50.355 48.987,67.063 "></polygon>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M86.64,85.911l-4.307-16.146c-0.005,0.005-0.009,0.015-0.014,0.019l-5.671-0.953l1.662,6.227l1.692,6.344l-6.794-1.656l-6.882-1.684C61.514,80.805,55.939,82.377,50,82.377c-18.109,0-32.841-14.607-32.841-32.561c0-9.17,3.845-17.464,10.017-23.386v-6.836c-9.266,6.896-15.271,17.878-15.271,30.222c0,20.827,17.089,37.769,38.095,37.769c6.14,0,11.938-1.451,17.081-4.018h0.003c-0.021,0.009-0.04,0.019-0.059,0.027l17.639,4.311C85.873,88.198,86.958,87.105,86.64,85.911"></path>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M82.84,49.816c0,4.854-1.079,9.462-3.009,13.605l5.339,0.897c1.884-4.469,2.925-9.365,2.925-14.503c0-20.826-17.09-37.77-38.096-37.77c-6.072,0-11.813,1.419-16.913,3.935v5.936C38.03,18.96,43.817,17.258,50,17.258C68.109,17.258,82.84,31.862,82.84,49.816"></path>
+								</svg>
+							</span>
+						</p>
+					</figure>
+					<div class="media-content">
+						<div class="content">
+							<p class="is-day-base-1 is-night-white">Over 1,409 successful transactions and deals</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ticker-wrap">
+				<div class="ticker">
+					<div class="ticker__item content">
+						<p class="is-jumbo is-title is-day-base-1 is-night-base-1">Over 1,409 successful transactions and deals</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Horizontal Text #03 -->
+	<div class="container is-fluid horizontal-stripes">
+		<div class="columns is-mobile is-vcentered stripesHoverMarqee trigger-mouse-inverted padding-top-1-touch-portrait padding-bottom-1-touch-portrait lax" data-lax-preset="ubizzFadeInUp">
+			<div class="column is-8-desktop is-6-tablet is-6-mobile">
+				<div class="content">
+					<p class="is-jumbo is-title has-text-primary">$35B.</p>
+				</div>
+			</div>
+			<div class="column is-4-desktop is-6-tablet is-6-mobile">
+				<div class="media">
+					<figure class="media-left is-primary is-hidden-touch-portrait">
+						<p class="image is-48x48">
+							<span class="icon is-primary">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M27.833,71.978c0,2.428-1.983,4.395-4.432,4.395s-4.434-1.967-4.434-4.395c0-2.427,1.986-4.395,4.434-4.395S27.833,69.551,27.833,71.978"></path>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M45.567,71.978c0,2.428-1.983,4.395-4.432,4.395s-4.434-1.967-4.434-4.395c0-2.427,1.986-4.395,4.434-4.395S45.567,69.551,45.567,71.978"></path>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M63.301,71.978c0,2.428-1.984,4.395-4.432,4.395c-2.451,0-4.436-1.967-4.436-4.395c0-2.427,1.984-4.395,4.436-4.395C61.317,67.583,63.301,69.551,63.301,71.978"></path>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M81.038,71.978c0,2.428-1.986,4.395-4.436,4.395c-2.447,0-4.432-1.967-4.432-4.395c0-2.427,1.984-4.395,4.432-4.395C79.051,67.583,81.038,69.551,81.038,71.978"></path>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M83.991,82.562H7.145c-0.16,0-0.295-0.116-0.323-0.27l5.896-64.291l0.009-0.234c0-0.182,0.149-0.325,0.328-0.325h3.16c0.172,0,0.316,0.132,0.328,0.302l2.134,29.61l4.943-4.511l-1.837-25.472c-0.207-2.883-2.653-5.141-5.569-5.141h-3.16c-3.032,0-5.506,2.409-5.58,5.398l-5.901,64.37l-0.012,0.237c0,3.051,2.504,5.533,5.583,5.533h76.846V82.562z"></path>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M95.208,24.923c-1.996-0.916-4.279-0.611-5.957,0.796L60.018,50.244V30.287c0-2.228-1.277-4.169-3.334-5.066c-2.061-0.897-4.365-0.519-6.022,0.986L29.775,45.191l-10.561,9.637l0.477,6.594l34.524-31.374c0.051-0.047,0.152-0.142,0.354-0.059c0.195,0.086,0.195,0.23,0.195,0.298v31.19l37.881-31.781c0.047-0.039,0.162-0.135,0.354-0.046c0.189,0.086,0.189,0.232,0.189,0.295v52.291c0,0.177-0.148,0.325-0.33,0.325h-2.957v5.208h2.957c3.08,0,5.58-2.482,5.58-5.533V29.945C98.438,27.765,97.202,25.842,95.208,24.923"></path>
+								</svg>
+							</span>
+						</p>
+					</figure>
+					<div class="media-content">
+						<div class="content">
+							<p class="is-day-base-1 is-night-white">$35 billion industrial real estate sold.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ticker-wrap">
+				<div class="ticker">
+					<div class="ticker__item content">
+						<p class="is-jumbo is-title is-day-base-1 is-night-base-1">$35 billion industrial real estate sold.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- Horizontal Text #04 -->
+	<div class="container is-fluid horizontal-stripes">
+		<div class="columns is-mobile is-vcentered stripesHoverMarqee trigger-mouse-inverted padding-top-1-touch-portrait padding-bottom-1-touch-portrait lax" data-lax-preset="ubizzFadeInUp">
+			<div class="column is-8-desktop is-6-tablet is-6-mobile">
+				<div class="content">
+					<p class="is-jumbo is-title has-text-primary">100s</p>
+				</div>
+			</div>
+			<div class="column is-4-desktop is-6-tablet is-6-mobile">
+				<div class="media">
+					<figure class="media-left is-primary is-hidden-touch-portrait">
+						<p class="image is-48x48">
+							<span class="icon is-primary">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M80.502,74.8h5.58c-3.846-11.509-13.15-20.586-24.851-24.187c5.529-3.628,9.188-9.845,9.188-16.896c0-11.163-9.16-20.245-20.42-20.245c-2.258,0-4.427,0.369-6.459,1.044v5.602c1.962-0.919,4.15-1.435,6.459-1.435c8.362,0,15.165,6.742,15.165,15.034c0,8.291-6.803,15.034-15.165,15.034c-8.361,0-15.164-6.743-15.164-15.034c0-3.231,1.037-6.228,2.795-8.683v-7.41c-4.888,3.702-8.05,9.538-8.05,16.093c0,7.052,3.657,13.269,9.188,16.896c-15.45,4.754-26.731,19.048-26.773,35.901l5.255,0.014C17.295,68.667,31.988,54.14,50,54.14C63.845,54.14,75.722,62.719,80.502,74.8"></path>
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M82.195,80.66c0.358,1.901,0.549,3.863,0.554,5.868l5.255-0.014c-0.005-1.991-0.172-3.943-0.479-5.854H82.195z"></path>
+								</svg>
+							</span>
+						</p>
+					</figure>
+					<div class="media-content">
+						<div class="content">
+							<p class="is-day-base-1 is-night-white">100s of clients trust our team’s expertise</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ticker-wrap">
+				<div class="ticker">
+					<div class="ticker__item content">
+						<p class="is-jumbo is-title is-day-base-1 is-night-base-1">100s of clients trust our team’s expertise</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Properties -->
+	<div class="container is-fluid has-vertical-stripes">
+		<div class="has-vertical-stripes-inner">
+			<div class="columns is-mobile is-multiline vertical-stripes padding-top-12-desktop padding-top-12-touch-landscape  padding-top-3-touch-portrait padding-bottom-1-touch-portrait">
+				<div class="column is-6-touch-landscape is-6-desktop is-6-tablet-portrait is-12-mobile-portrait">
+					<div class="content is-fullheight">
+						<h5 class="has-text-primary lax" data-lax-preset="ubizzFadeInUp">Properties</h5>
+						<h2 class="is-day-base-1 is-night-white is-size-2 lax" data-lax-preset="ubizzFadeInUp">Let’s find a new home for your business.</h2>
+					</div>
+				</div>
+				<div class="column is-6-touch-landscape is-6-desktop is-6-tablet-portrait is-12-mobile-portrait">
+					<div class="content is-fullheight is-vbottom is-hright padding-top-1-mobile-portrait padding-bottom-2-mobile-portrait">
+						<p>
+							<a href="" class="button trigger-mouse-hover lax" data-lax-preset="ubizzFadeInUp">
+								<span>Get an overview</span>
+								<span class="icon">
+									<svg width="100%" height="100%" viewBox="0 0 5 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+										<path d="M0.214,1.004l3.221,3.396l-3.221,3.396c-0.28,0.268 -0.285,0.535 -0.017,0.803c0.268,0.268 0.531,0.268 0.788,0l3.64,-3.797c0.117,-0.098 0.175,-0.232 0.175,-0.402c0,-0.17 -0.058,-0.304 -0.175,-0.402l-3.64,-3.797c-0.257,-0.268 -0.52,-0.268 -0.788,0c-0.268,0.268 -0.263,0.535 0.017,0.803Z"></path>
+									</svg>
+								</span>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<div class="container is-fluid has-vertical-stripes">
+		<div class="has-vertical-stripes-inner">
+			<div class="columns padding-bottom-6-desktop padding-bottom-6-touch-landscape">
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- The Aberg Group -->
+<section class="section has-background-day-white has-background-night-base-1 is-fullheight trigger-mouse-inverted">
+	<div class="background-image is-fullwidth">
+
+		<div class="ub-parallax-container">
+			<div class="ub-parallax-content lax" data-lax-preset="ubizzParallax">
+				<figure class="ub-parallax-image">
+					<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/TAG_Home_Team_2e1a0.jpg' %}" alt=" " class="is-hidden-touch-landscape is-hidden-desktop">
+					<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/11/TAG_Home_Team_2e1a0.jpg' %}" alt=" " class="is-hidden-touch-portrait">
+				</figure>
+			</div>
+		</div>
+	</div>
+	<div class="container is-fluid">
+		<div class="columns is-mobile is-multiline padding-top-2-desktop padding-bottom-2-desktop padding-bottom-2-touch-landscape padding-bottom-2-touch-portrait">
+			<div class="column is-5-touch-landscape is-5-desktop is-12-touch-portrait">
+				<div class="content has-text-white is-fullheight is-vcentered">
+					<div>
+						<h5 class="has-text-white lax" data-lax-preset="ubizzFadeInUp">The Allion Group</h5>
+						<h2 class="has-text-white is-size-2 lax" data-lax-preset="ubizzFadeInUp">The new school of strategy.</h2>
+						<p class="has-text-white lax" data-lax-preset="ubizzFadeInUp">We are advisors, strategists, brokers, marketers, closers, movers and shakers — here to bring your business vision into reality. All of our teammates bring their A-game, from planning and strategy to negotiations and project management, it’s all in the teamwork. When you work with one of us, you work with all of us.</p>
+					</div>
+				</div>
+			</div>
+			<div class="column is-7-touch-landscape is-7-desktop is-12-touch-portrait">
+				<div class="content has-text-right is-fullheight is-vbottom is-hright">
+					<p>
+						<a href="about-us/index.html" class="button trigger-mouse-hover lax" data-lax-preset="ubizzFadeInUp">
+							<span>Get to know us</span>
+							<span class="icon">
+								<svg width="100%" height="100%" viewBox="0 0 5 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+									<path d="M0.214,1.004l3.221,3.396l-3.221,3.396c-0.28,0.268 -0.285,0.535 -0.017,0.803c0.268,0.268 0.531,0.268 0.788,0l3.64,-3.797c0.117,-0.098 0.175,-0.232 0.175,-0.402c0,-0.17 -0.058,-0.304 -0.175,-0.402l-3.64,-3.797c-0.257,-0.268 -0.52,-0.268 -0.788,0c-0.268,0.268 -0.263,0.535 0.017,0.803Z"></path>
+								</svg>
+							</span>
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="modal-background">
+</div>
+<div class="modal" id="home-hold">
+	<div class="modal-card trigger-mouse-inverted">
+		<div class="modal-card-body">
+			<div class="modal-container-top">
+				<div class="container is-fluid is-paddingless">
+					<div class="columns is-gapless is-mobile">
+						<div class="column"></div>
+						<div class="column modal-trigger-close trigger-mouse-hover">
+							<span>
+								<svg width="100%" height="100%" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+									<path d="M0,30.323l1.581,1.581l12.522,-12.522l-1.581,-1.581l-12.522,12.522Z"></path>
+									<path id="Fill-2" d="M30.183,0.14l-12.522,12.522l1.581,1.581l12.522,-12.522l-1.581,-1.581Z"></path>
+									<path d="M1.581,0.14l-1.581,1.581l14.301,14.301l0,0l1.581,1.581l0,0l14.301,14.301l1.581,-1.581l-14.301,-14.301l0,0l-1.581,-1.581l0,0l-14.301,-14.301Z"></path>
+								</svg>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-container-bottom">
+				<div class="container">
+					<div class="columns is-mobile is-multiline is-hold-content is-vcentered">
+						<div class="column is-6-desktop is-6-touch-landscape is-12-mobile is-offset-1-desktop is-offset-1-touch-landscape">
+							<div class="content is-uppercase  hold-title">
+								<h2 class="is-title is-size-1 has-text-white">We fuel your business value with actionable insights.</h2>
+								<div class="hold-content-image">
+									<div class="content">
+										<figure class="image">
+											<img src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/uploads/2019/10/TAG_Home_hold_2e1a0.jpg' %}" alt=" ">
+										</figure>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+
+						<div class="column is-4-desktop is-4-touch-landscape">
+							<div class="content has-text-base-1">
+								<p>With <strong>84 years of combined experience</strong>, our integrated expert team of industrial brokers and marketers can offer you the most comprehensive and detailed market intelligence anywhere throughout the world.</p>
+<p>Our extensive local connections and exceptional relationships within the investor and lender community will give you <strong>access to resources and benefits</strong> nobody else can provide.</p>
+<p>Backed by <strong>the power of Williams</strong>, you benefit from supreme real-time insights and market opportunities.</p>
+							</div>
+
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<footer class="footer is-dark-mode is-fullheight trigger-mouse-inverted">
+
+	<div class="footer-body">
+		<div class="container is-fluid">
+			<div class="columns">
+	<div class="column is-12">
+		<div class="content has-text-centered is-fullheight is-vcentered is-jcenter">
+			<div>
+				<h5 class="lax" data-lax-preset="ubizzFadeInUp">Contact us</h5>
+				<p class="is-huge lax" data-lax-preset="ubizzFadeInUp"><a href="{% url 'contact' %}" class="trigger-mouse-hover is-huge footerHoverColor">Let's get specific</a></p>
+			</div>
+		</div>
+	</div>
+</div>		</div>
+	</div>
+	<div class="footer-foot">
+		<div class="container is-fluid">
+			<div class="columns is-vcentered reorder-mobile-portrait is-multiline is-mobile footer-columns">
+	<div class="column order-2-mobile-portrait is-12-mobile-portrait">
+		<div class="content is-small is-copyright has-text-centered-mobile-portrait padding-top-2-mobile-portrait padding-bottom-2-mobile-portrait">
+			<p>&copy; 2021 
+The Allion Group
+</p>
+<p><span><a href="" class="trigger-mouse-hover">Privacy Policy</a></span><span><a href="" class="trigger-mouse-hover">Terms of use</a></span></p>		</div>
+	</div>
+	<div class="column order-1-mobile-portrait is-12-mobile-portrait">
+		<div class="content">
+			<div class="social-media">
+
+	
+	
+			<div class="social-media-item">
+			<a href="" target="_blank" class="trigger-mouse-hover">
+				<span class="icon instagram">
+					
+				</span>
+			</a>
+		</div>
+	
+			<div class="social-media-item">
+			<a href="" target="_blank" class="trigger-mouse-hover">
+				<span class="icon linkedin">
+					
+				</span>
+			</a>
+		</div>
+	
+</div>
+		</div>
+	</div>
+	<div class="column order-3-mobile-portrait is-12-mobile-portrait">
+		<div class="content">
+			<p class="has-text-right has-text-centered-mobile-portrait">
+				<span class="logo-footer">
+					
+				</span>
+			</p>
+		</div>
+	</div>
+</div>		</div>
+	</div>
+</footer>
+
+
+	
+
+	<div class="fixed-buttons">
+		<div class="fixed-button dark-mode-button">
+			<span class="icon">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="595.279px" height="595.28px" viewBox="0 246.61 595.279 595.28" enable-background="new 0 246.61 595.279 595.28" xml:space="preserve">
+					<path d="M297.64,246.61C133.258,246.61,0,379.869,0,544.251c0,164.382,133.258,297.64,297.64,297.64s297.64-133.258,297.64-297.64C595.096,379.945,461.946,246.794,297.64,246.61z M41.054,544.251C41.209,402.606,155.996,287.82,297.64,287.665v513.172C155.996,800.682,41.209,685.895,41.054,544.251z"></path>
+				</svg>
+			</span>
+		</div>
+	</div>
+
+
+
+<div class="mouse-tracking">
+
+	<div class="mouse-default">
+	</div>
+
+	<div class="drag-icon">
+		<span class="drag-icons"></span>
+		<span class="drag-content"></span>
+	</div>
+
+</div>
+
+	<!-- End Document ================================================== -->
+
+<script>
+	window.onload = function() {
+		lax.setup() // init
+
+		const updateLax = () => {
+			lax.update(window.scrollY)
+			window.requestAnimationFrame(updateLax)
+		}
+
+		window.requestAnimationFrame(updateLax)
+	}
+	window.addEventListener("resize", function() {
+		lax.updateElements()
+	});
+
+	lax.addPreset("ubizzParallax", function() {
+		return {
+			"data-lax-translate-y": "vh 0, (-elh) (-vh*0.2)",
+			"data-lax-anchor": "self",
+		}
+	})
+</script>
+<script type='text/javascript' id='leadin-script-loader-js-js-extra'>
+</script>
+<script type='text/javascript' src="{% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/js/navigatione1a0.js' %}" id='tag-navigation-js'></script>
+<script type='text/javascript' src=" {% static 'secureservercdn.net/198.71.233.51/u9c.f0b.myftpupload.com/wp-content/themes/tag-theme-v6/js/skip-link-focus-fixe1a0.js' %}" id='tag-skip-link-focus-fix-js'></script>
+
+	
+	</body>
+</html>
+
+
+
+
+
+	
